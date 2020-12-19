@@ -1,7 +1,7 @@
 # Uno
 Java based Uno with GUI
 
-![]unoGif.gif
+![](unoGif.gif)
 
 
 A simple Java implementation of the classic game of Uno! The core of the project consists of a few major classes, the card the deck and game classes. With these classes we can make object representations of Uno cards and the kind of actions we can take in a game. For example, we can use our game class to "draw a card" and then modify a deck object based on this action. 
