@@ -188,14 +188,14 @@ public class AddPlayerNames extends javax.swing.JFrame {
                 pidFiveLabel.setText(playerIds.get(3));
             }
             if(playerIds.size() > 0 && playerIds.size() < 5){
-            JLabel message = new JLabel("Succesfull save!");
+            JLabel message = new JLabel("Player added!");
             message.setFont(new Font("Arial", Font.BOLD, 48));
             JOptionPane.showMessageDialog(null, message); 
             inputText.setText("");
             }
             if(playerIds.size() == 5){
             playerIds.remove(name);
-            JLabel message = new JLabel("There can only 2-4 players !");
+            JLabel message = new JLabel("The game is limited to a max of 4 players!");
             message.setFont(new Font("Arial", Font.BOLD, 48));
             JOptionPane.showMessageDialog(null, message);
             inputText.setText("");

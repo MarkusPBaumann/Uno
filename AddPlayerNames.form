@@ -113,7 +113,7 @@
       <SubComponents>
         <Component class="javax.swing.JButton" name="saveButton">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Save"/>
+            <Property name="text" type="java.lang.String" value="Add Player"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
@@ -121,7 +121,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="doneButton">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Done"/>
+            <Property name="text" type="java.lang.String" value="Start Game"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="doneButtonActionPerformed"/>

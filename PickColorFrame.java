@@ -136,7 +136,7 @@ public class PickColorFrame extends javax.swing.JFrame {
         popUp.declaredColor = Card.Color.Blue;
         popUp.gameStage.setPidName(popUp.game.getCurrentPlayer());
         popUp.gameStage.setButtonIcons();
-        popUp.topCard.setIcon(new javax.swing.ImageIcon("C:/Users/aland/Desktop/images/PNGs/small/" + popUp.game.getTopCardImage()));
+        popUp.topCard.setIcon(new javax.swing.ImageIcon("D:\\Users\\Markus\\OneDrive\\Documents\\GitHub\\Uno\\images\\PNGs\\small\\" + popUp.game.getTopCardImage()));
         popUp.game.setCardColor(Card.Color.Blue);
         popUp.dispose();
     }//GEN-LAST:event_blueButtonActionPerformed
@@ -151,7 +151,7 @@ public class PickColorFrame extends javax.swing.JFrame {
         popUp.declaredColor = Card.Color.Red;
         popUp.gameStage.setPidName(popUp.game.getCurrentPlayer());
         popUp.gameStage.setButtonIcons();
-        popUp.topCard.setIcon(new javax.swing.ImageIcon("C:/Users/aland/Desktop/images/PNGs/small/" + popUp.game.getTopCardImage()));
+        popUp.topCard.setIcon(new javax.swing.ImageIcon("D:\\Users\\Markus\\OneDrive\\Documents\\GitHub\\Uno\\images\\PNGs\\small\\" + popUp.game.getTopCardImage()));
         popUp.game.setCardColor(Card.Color.Red);
         popUp.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_redButtonActionPerformed
@@ -166,7 +166,7 @@ public class PickColorFrame extends javax.swing.JFrame {
         popUp.declaredColor = Card.Color.Green;
         popUp.gameStage.setPidName(popUp.game.getCurrentPlayer());
         popUp.gameStage.setButtonIcons();
-        popUp.topCard.setIcon(new javax.swing.ImageIcon("C:/Users/aland/Desktop/images/PNGs/small/" + popUp.game.getTopCardImage()));
+        popUp.topCard.setIcon(new javax.swing.ImageIcon("D:\\Users\\Markus\\OneDrive\\Documents\\GitHub\\Uno\\images\\PNGs\\small\\" + popUp.game.getTopCardImage()));
         popUp.game.setCardColor(Card.Color.Green);
         popUp.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_greenButtonActionPerformed
@@ -181,7 +181,7 @@ public class PickColorFrame extends javax.swing.JFrame {
         popUp.declaredColor = Card.Color.Yellow;
         popUp.gameStage.setPidName(popUp.game.getCurrentPlayer());
         popUp.gameStage.setButtonIcons();
-        popUp.topCard.setIcon(new javax.swing.ImageIcon("C:/Users/aland/Desktop/images/PNGs/small/" + popUp.game.getTopCardImage()));
+        popUp.topCard.setIcon(new javax.swing.ImageIcon("D:\\Users\\Markus\\OneDrive\\Documents\\GitHub\\Uno\\images\\PNGs\\small\\" + popUp.game.getTopCardImage()));
         popUp.game.setCardColor(Card.Color.Yellow);
         popUp.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_yellowButtonActionPerformed

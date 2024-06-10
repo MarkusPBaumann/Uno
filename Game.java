@@ -242,7 +242,7 @@ public class Game {
         }
 
         if(card.getValue() == Card.Value.Reverse){
-            JLabel message = new JLabel( pid + "changed direction!");
+            JLabel message = new JLabel( pid + " changed direction!");
             message.setFont(new Font("Arial", Font.BOLD, 48));
             JOptionPane.showMessageDialog(null, message);
 

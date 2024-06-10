@@ -44,7 +44,7 @@ public class GameStage extends javax.swing.JFrame {
         populateArrayList();
         game.start(game);
         setPidName();
-        deckCard.setIcon(new javax.swing.ImageIcon("C:/Users/aland/Desktop/images/PNGs/small/" +game.getTopCardImage()));
+        deckCard.setIcon(new javax.swing.ImageIcon("D:\\Users\\Markus\\OneDrive\\Documents\\GitHub\\Uno\\images\\PNGs\\small\\" +game.getTopCardImage()));
         setButtonIcons();
         
     }
@@ -54,7 +54,7 @@ public class GameStage extends javax.swing.JFrame {
         String[] cardNames = listString.split(",");
         cardIds = new ArrayList<>(Arrays.asList(cardNames));
         for(int i = 0; i < cardIds.size(); i++){
-            cardButtons.get(i).setIcon(new javax.swing.ImageIcon("C:/Users/aland/Desktop/images/PNGs/small/" + cardIds.get(i) + ".png"));
+            cardButtons.get(i).setIcon(new javax.swing.ImageIcon("D:\\Users\\Markus\\OneDrive\\Documents\\GitHub\\Uno\\images\\PNGs\\small\\" + cardIds.get(i) + ".png"));
         }
         
         for(int i = cardIds.size(); i <cardButtons.size(); i++){
@@ -231,7 +231,7 @@ public class GameStage extends javax.swing.JFrame {
             }
         });
 
-        downCard.setIcon(new javax.swing.ImageIcon("C:\\Users\\aland\\Desktop\\images\\PNGs\\small\\Card_Back_Alt.png")); // NOI18N
+        downCard.setIcon(new javax.swing.ImageIcon("D:\\Users\\Markus\\OneDrive\\Documents\\GitHub\\Uno\\images\\PNGs\\small\\Card_Back_Alt.png")); // NOI18N
         downCard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 downCardActionPerformed(evt);
